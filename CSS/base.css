@@ -1,4 +1,7 @@
 :root{
+    /**************
+    *** Colors ***
+    ***************/
     --color-primary: #a597e7;
     --color-secondary: #6c757d;
     --color-success: #b5d56a;
@@ -72,14 +75,80 @@
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6; /*saknas det rem? kan vi använda den variabel vi satt?*/
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Dosis', 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+h1, .h1 { font-size: var(--distance-13);}
+
     /********************
     *** Text Colors ***
     *********************/
-    .text-primary{ color: var(--color-primary);}
-    .text-secondary{color: var(--color-secondary);}
-    .text-success{}
+    .text-primary {color: var(--color-primary);}
+    .text-secondary {color: var(--color-secondary);}
+    .text-success {color: var(--color-success);}
+    .text-info {color: var(--color-info);}
+    .text-warning {color: var(--color-warning);}
+    .text-danger {color: var(--color-danger);}
+    .text-light {color: var(--color-light);}
+    .text-dark {color: var(--color-dark);}
+    .text-white {color: var(--color-white);}
+    .text-cozy {color: var(--color-cozy);}
+
+    /************************
+    *** Background Colors ***
+    *************************/
+    .bg-primary, .btn-primary {background-color: var(--color-primary);}
+    .bg-secondary, .btn-secondary {background-color: var(--color-secondary);}
+    .bg-success, .btn-success {background-color: var(--color-success);}
+    .bg-info, .btn-info {background-color: var(--color-info);}
+    .bg-warning, .btn-warning {background-color: var(--color-warning);}
+    .bg-danger, .btn-danger {background-color: var(--color-danger);}
+    .bg-light, .btn-light {background-color: var(--color-light);}
+    .bg-dark, .btn-dark {background-color: var(--color-dark);}
+    .bg-white, .btn-white {background-color: var(--color-white);}
+    .bg-cozy, .btn-cozy {background-color: var(--color-cozy);}
+    .bg-transparent {background-color: var(--color-transparent);}
+    .bg-dark-transparent {background-color: var(--color-dark-transparent);}
+
 
 
     /********************
     *** Border Colors ***
     *********************/
+    .border-color-primary {border-color: var(--color-primary)!important;}
+    .border-color-secondary {border-color: var(--color-secondary)!important;}
+    .border-color-success {border-color: var(--color-success)!important;}
+    .border-color-info {border-color: var(--color-info)!important;}
+    .border-color-warning {border-color: var(--color-warning)!important;}
+    .border-color-danger {border-color: var(--color-danger)!important;}
+    .border-color-light {border-color: var(--color-light)!important;}
+    .border-color-dark {border-color: var(--color-dark)!important;}
+    .border-color-white {border-color: var(--color-white)!important;}
+    .border-color-cozy {border-color: var(--color-cozy)!important;}
