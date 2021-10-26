@@ -1,14 +1,21 @@
 /**************
 *** Display ***
 ***************/
-
-.d-flex {
-    display: flex;
-}
+.d-flex {display: flex;}
+.d-none {display: none;}
 
 /***********
 *** Flex ***
 *************/
-.flex-grow {
-    flex-grow: 1; 
-}
+.flex-grow {flex-grow: 1;}
+.flex-row {flex-direction: row;}
+.flex-column {flex-direction: column;}
+.flex-row-reverse {flex-direction: row-reverse;}
+
+
+/**********************
+*** Align & Justify ***
+**********************/
+.justify-content-between {justify-content: space-between;}
+.justify-content-center { justify-content: center;}
+.align-items-center {align-items: center;}
