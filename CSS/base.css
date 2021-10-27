@@ -14,7 +14,7 @@
     --color-cozy: #ea77ad;
     --color-transparent: transparent;
     --color-border: #dee2e6;
-    --color-dark-transparent: rgba (0, 0, 0, 0.2)
+    --color-dark-transparent: #00000070; 
 
     /**************
     *** Borders ***
