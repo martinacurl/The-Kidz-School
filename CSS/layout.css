@@ -40,6 +40,8 @@
 .mt-16, .my-16 {margin-top: var(--distance-16);}
 .mb-16, .my-16 {margin-bottom: var(--distance-16);}         /* 0rem */
 
+.ml-2, .mx-2 {margin-left: var(--distance-2);} 
+.mr-2, .mx-2 {margin-right: var(--distance-2);} 
 .ml-4, .mx-4 {margin-left: var(--distance-4);} 
 .mr-4, .mx-4 {margin-right: var(--distance-4);} 
 .ml-6, .mx-6 {margin-left: var(--distance-6);} 
@@ -53,7 +55,7 @@
 .p-6 {padding: var(--distance-6);}
 .p-8 {padding: var(--distance-8);}
 .p-12 {padding: var(--distance-12);}
-.p-15 {padding: var(--distance-15);}
+.p-16 {padding: var(--distance-16);}
 
 .pr-4, .px-4 {padding-right: var(--distance-4);}
 .pl-4, .px-4 {padding-left: var(--distance-4);}
@@ -65,6 +67,7 @@
 ******************/
 .text-decoration-none {text-decoration: none;}
 .text-center {text-align: center;}
+.text-uppercase {text-transform: uppercase;}
 
 .text-size-xxs {font-size: var(--display-xxs);}
 .text-size-xs {font-size: var(--display-xs);}
@@ -108,6 +111,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .border-small-white {border: var(--border-xs-white);}
 .border-bottom-xs {border-bottom: var(--border-xs)}
 .border-sm {border: var(--border-sm);}
+.border-transparent {border: var(--border-transparent);}
 
 /******************
 *** Colored Bar ***
