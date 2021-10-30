@@ -2,6 +2,7 @@
 *** Widths ***
 **************/
 .max-width {max-width: 192rem;}
+.card-width {max-width: 60rem;}
 
 /***************
 *** Position ***
@@ -70,6 +71,7 @@
 .text-decoration-none {text-decoration: none;}
 .text-center {text-align: center;}
 .text-uppercase {text-transform: uppercase;}
+.text-bold {font-weight: bold;}
 
 .text-size-xxs {font-size: var(--display-xxs);}
 .text-size-xs {font-size: var(--display-xs);}
@@ -125,6 +127,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 *** Imgs ***
 ***********/
 .logo-width {max-width: 13rem;}
+.img-lg-width {max-width: 60%;}
 
 /****************
 *** Slideshow ***
