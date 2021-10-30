@@ -3,6 +3,9 @@
 **************/
 .max-width {max-width: 192rem;}
 .card-width {max-width: 60rem;}
+.width-lg {max-width: 50%;}
+.min-width-xxl {min-width: 100%;}
+.img-width {max-width: 25rem;}
 
 /***************
 *** Position ***
@@ -23,6 +26,7 @@
 .ml-auto, .mx-auto {margin-left: auto;}
 
 .m-6 {margin: var(--distance-6);}
+.m-16 {margin: var(--distance-16);}
 
 .mt-0, .my-0 {margin-top: var(--distance-0);}
 .mb-0, .my-0 {margin-bottom: var(--distance-0);}            /* 0rem */
@@ -169,6 +173,11 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
     width: 6.2rem;
     height: 6.2rem;
     line-height: 6rem;
+}
+
+.icon-form-control {
+    right: 10px;
+    top: 10px;
 }
 
 /*****************
