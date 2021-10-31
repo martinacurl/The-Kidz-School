@@ -5,7 +5,7 @@
 .card-width {max-width: 60rem;}
 .width-lg {max-width: 50%;}
 .min-width-xxl {min-width: 100%;}
-.img-width {max-width: 25rem;}
+.img-width {width: 25rem;}
 
 /***************
 *** Position ***
